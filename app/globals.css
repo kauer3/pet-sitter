@@ -1,26 +1,155 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --text-50: #feebe6;
+  --text-100: #fdd7ce;
+  --text-200: #fcaf9c;
+  --text-300: #fa876b;
+  --text-400: #f95f39;
+  --text-500: #f73808;
+  --text-600: #c62c06;
+  --text-700: #942105;
+  --text-800: #631603;
+  --text-900: #310b02;
+  --text-950: #190601;
+
+  --background-50: #feebe7;
+  --background-100: #fcd6cf;
+  --background-200: #faad9e;
+  --background-300: #f7856e;
+  --background-400: #f55c3d;
+  --background-500: #f2330d;
+  --background-600: #c2290a;
+  --background-700: #911f08;
+  --background-800: #611405;
+  --background-900: #300a03;
+  --background-950: #180501;
+
+  --primary-50: #feece7;
+  --primary-100: #fdd9ce;
+  --primary-200: #fbb39d;
+  --primary-300: #f98d6c;
+  --primary-400: #f7673b;
+  --primary-500: #f5410a;
+  --primary-600: #c43408;
+  --primary-700: #932706;
+  --primary-800: #621a04;
+  --primary-900: #310d02;
+  --primary-950: #180601;
+
+  --secondary-50: #f6f7ee;
+  --secondary-100: #edeedd;
+  --secondary-200: #dadeba;
+  --secondary-300: #c8cd98;
+  --secondary-400: #b6bd75;
+  --secondary-500: #a3ac53;
+  --secondary-600: #838a42;
+  --secondary-700: #626732;
+  --secondary-800: #414521;
+  --secondary-900: #212211;
+  --secondary-950: #101108;
+
+  --accent-50: #f4f7ee;
+  --accent-100: #e9eedd;
+  --accent-200: #d3ddbb;
+  --accent-300: #bdcd98;
+  --accent-400: #a7bc76;
+  --accent-500: #91ab54;
+  --accent-600: #748943;
+  --accent-700: #576732;
+  --accent-800: #3a4422;
+  --accent-900: #1d2211;
+  --accent-950: #0e1108;
+
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+.dark {
+  @theme {
+    --text-50: #190601;
+    --text-100: #310b02;
+    --text-200: #631603;
+    --text-300: #942105;
+    --text-400: #c62c06;
+    --text-500: #f73808;
+    --text-600: #f95f39;
+    --text-700: #fa876b;
+    --text-800: #fcaf9c;
+    --text-900: #fdd7ce;
+    --text-950: #feebe6;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background-50: #180501;
+    --background-100: #300a03;
+    --background-200: #611405;
+    --background-300: #911f08;
+    --background-400: #c2290a;
+    --background-500: #f2330d;
+    --background-600: #f55c3d;
+    --background-700: #f7856e;
+    --background-800: #faad9e;
+    --background-900: #fcd6cf;
+    --background-950: #feebe7;
+
+    --primary-50: #180601;
+    --primary-100: #310d02;
+    --primary-200: #621a04;
+    --primary-300: #932706;
+    --primary-400: #c43408;
+    --primary-500: #f5410a;
+    --primary-600: #f7673b;
+    --primary-700: #f98d6c;
+    --primary-800: #fbb39d;
+    --primary-900: #fdd9ce;
+    --primary-950: #feece7;
+
+    --secondary-50: #101108;
+    --secondary-100: #212211;
+    --secondary-200: #414521;
+    --secondary-300: #626732;
+    --secondary-400: #838a42;
+    --secondary-500: #a3ac53;
+    --secondary-600: #b6bd75;
+    --secondary-700: #c8cd98;
+    --secondary-800: #dadeba;
+    --secondary-900: #edeedd;
+    --secondary-950: #f6f7ee;
+
+    --accent-50: #0e1108;
+    --accent-100: #1d2211;
+    --accent-200: #3a4422;
+    --accent-300: #576732;
+    --accent-400: #748943;
+    --accent-500: #91ab54;
+    --accent-600: #a7bc76;
+    --accent-700: #bdcd98;
+    --accent-800: #d3ddbb;
+    --accent-900: #e9eedd;
+    --accent-950: #f4f7ee;
+
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+/* :root { */
+/*   --background: #ffffff; */
+/*   --foreground: #171717; */
+/* } */
+/**/
+/* @theme inline { */
+/*   --color-background: var(--background); */
+/*   --color-foreground: var(--foreground); */
+/*   --font-sans: var(--font-geist-sans); */
+/*   --font-mono: var(--font-geist-mono); */
+/* } */
+/**/
+/* @media (prefers-color-scheme: dark) { */
+/*   :root { */
+/*     --background: #0a0a0a; */
+/*     --foreground: #ededed; */
+/*   } */
+/* } */
+/**/
+/* body { */
+/*   background: var(--background); */
+/*   color: var(--foreground); */
+/*   font-family: Arial, Helvetica, sans-serif; */
+/* } */
