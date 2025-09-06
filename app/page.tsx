@@ -11,7 +11,7 @@ export default function Home() {
           <Hero/>
         </Section>
       </main>
-      <footer className="h-50 w-screen bg-primary-500 z-10 relative">
+      <footer className="h-screen w-screen bg-primary-200 z-10 relative">
       </footer>
     </div>
   );
