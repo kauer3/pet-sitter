@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Section from "./_components/section";
 import Hero from "./_components/hero";
+import Services from "./_components/services";
 
 export default function Home() {
   return (
