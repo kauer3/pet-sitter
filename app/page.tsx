@@ -10,8 +10,11 @@ export default function Home() {
         <Section>
           <Hero/>
         </Section>
+        <Section classes="bg-primary-200 z-10">
+          <Services/>
+        </Section>
       </main>
-      <footer className="h-screen w-screen bg-primary-200 z-10 relative">
+      <footer className="h-screen w-screen bg-accent-500 z-10 relative">
       </footer>
     </div>
   );
