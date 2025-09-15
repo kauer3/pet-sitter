@@ -9,22 +9,22 @@ export default function Services() {
         <Card
           title="Daily Visits"
           description="I take care of your pets with regular visits for feeding, playtime and companionship."
-          icon={<House size={24} />}
+          icon={<House className="w-5 h-5 md:w-6 md:h-6" />}
         />
         <Card
           title="Walks"
           description="I make sure your pet gets the exercise and fresh air they need with daily walks tailored to their energy level."
-          icon={<PawPrint size={24} />}
+          icon={<PawPrint className="w-5 h-5 md:w-6 md:h-6" />}
         />
         <Card
           title="Health Care"
           description="Administration of medications, special care and attention to pets with specific health needs."
-          icon={<Stethoscope size={24} />}
+          icon={<Stethoscope className="w-5 h-5 md:w-6 md:h-6" />}
         />
         <Card
           title="Updates and Reports"
           description="I send you updates, messages and photos so you always know how your pet is doing."
-          icon={<MessageCircle size={24} />}
+          icon={<MessageCircle className="w-5 h-5 md:w-6 md:h-6" />}
         />
       </div>
     </div>
