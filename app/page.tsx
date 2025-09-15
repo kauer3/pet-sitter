@@ -2,6 +2,7 @@ import Section from "./_components/section";
 import Hero from "./_components/hero";
 import Services from "./_components/services";
 import About from "./_components/about";
+import Testimonials from "./_components/testimonials";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
         </Section>
         <Section classes="bg-background-100">
           <About/>
+        </Section>
+        <Section classes="bg-[#f7f6fd]">
+          <Testimonials/>
         </Section>
       </main>
       <footer className="h-screen w-screen bg-accent-500 z-10 relative">

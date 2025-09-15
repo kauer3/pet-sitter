@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Button from "./button";
 
@@ -25,8 +27,15 @@ export default function Hero() {
             priority
           />
         </div>
-        <Button text="Book a Service" classes="speed-3 bg-primary-500 text-text-50 hover:bg-primary-600 col-start-1" />
-        <Button text="About Me" classes="speed-2 bg-secondary-200 text-text-700 hover:bg-secondary-400 col-start-5 max-sm:justify-self-end" />
+        <Button
+          text="Book a Service"
+          classes="speed-3 bg-primary-500 text-text-50 hover:bg-primary-600 col-start-1"
+        />
+        <Button
+          text="About Me"
+          classes="speed-2 bg-secondary-200 text-text-700 hover:bg-secondary-400 col-start-5 max-sm:justify-self-end"
+          onClick={() => window.location.href = '#about'}
+        />
 
       </div>
     </div>

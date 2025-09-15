@@ -10,7 +10,10 @@ import Autoplay from "embla-carousel-autoplay"
 
 export default function About() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 items-stretch justify-stretch pt-12 pb-20 gap-12 gap-6 mx-5 max-w-2xs sm:max-w-2xl md:max-w-3xl lg:max-w-5xl">
+    <div
+      className="grid grid-cols-1 md:grid-cols-2 items-stretch justify-stretch pt-12 pb-20 gap-12 gap-6 mx-5 max-w-2xs sm:max-w-2xl md:max-w-3xl lg:max-w-5xl"
+      id="about"
+    >
       <div className="md:col-span-1">
         <h1 className="text-3xl md:text-4xl font-bold text-text-800 mb-10">Hi, I'm Júlia!</h1>
         <p className="mt-4 text-text-600 w-full text-lg md:text-xl leading-relaxed">
@@ -23,7 +26,13 @@ export default function About() {
             delay: 5000,
           }),
         ]}
-        className="md:col-start-2 md:col-span-1 max-sm:row-start-2"
+        opts={{
+          align: 'center',
+          containScroll: 'trimSnaps',
+          loop: true,
+          skipSnaps: false,
+        }}
+        className="md:col-start-2 md:col-span-1 max-sm:row-start-2 rounded-lg overflow-hidden shadow-lg"
       >
         <CarouselContent>
           <CarouselItem>
