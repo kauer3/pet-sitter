@@ -19,7 +19,7 @@ export default function Hero() {
           <Image
             className="absolute speed-1"
             src="/4.png"
-            alt="Next.js logo"
+            alt="Veterinarian, Pet Sitter & Dog Walker"
             fill
             style={{ objectFit: "contain", objectPosition: "bottom", zIndex: -1 }}
             priority

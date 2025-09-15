@@ -1,4 +1,5 @@
 import Card from "./card"
+import { House, MessageCircle, Stethoscope, PawPrint } from "lucide-react"
 
 export default function Services() {
   return (
@@ -8,18 +9,22 @@ export default function Services() {
         <Card
           title="Daily Visits"
           description="I take care of your pets with regular visits for feeding, playtime and companionship."
+          icon={<House size={24} />}
         />
         <Card
           title="Walks"
           description="I make sure your pet gets the exercise and fresh air they need with daily walks tailored to their energy level."
+          icon={<PawPrint size={24} />}
         />
         <Card
           title="Health Care"
           description="Administration of medications, special care and attention to pets with specific health needs."
+          icon={<Stethoscope size={24} />}
         />
         <Card
           title="Updates and Reports"
           description="I send you updates, messages and photos so you always know how your pet is doing."
+          icon={<MessageCircle size={24} />}
         />
       </div>
     </div>
