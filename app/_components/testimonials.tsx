@@ -7,7 +7,7 @@ export default function Testimonials() {
       <div className="flex flex-col md:flex-row gap-6 mx-5 max-w-2xs sm:max-w-2xl md:max-w-3xl lg:max-w-5xl">
         <Testimonial
           name="Alice Johnson"
-          quote="I couldn't be happier with Júlia's pet sitting services. She took such great care of my dog while I was away, and I received daily updates and photos that put my mind at ease."
+          quote="I couldn&apos;t be happier with Júlia&apos;s pet sitting services. She took such great care of my dog while I was away, and I received daily updates and photos that put my mind at ease."
           petName="Buddy"
           petRelation="Mom"
         />
@@ -52,7 +52,7 @@ export default function Testimonials() {
         <span className="text-primary-500">
           <PawPrint size={18} />
         </span>
-        <h3 className="text-lg text-text-600">{petName}'s {petRelation}</h3>
+        <h3 className="text-lg text-text-600">{petName}&apos;s {petRelation}</h3>
       </span>
     </div>
   );

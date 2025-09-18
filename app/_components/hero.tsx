@@ -10,7 +10,7 @@ export default function Hero() {
 
         <h1 className="speed-5 text-2xl sm:text-6xl md:text-7xl lg:text-8xl col-span-5 sm:col-span-4 row-start-2 sm:row-start-3 col-start-1 row-span-3 sm:row-span-4 font-bold text-left text-text-700 leading-tight">
           <span className="speed-7">Loving Care</span><br />
-          <span className="speed-6">When You're</span><br />
+          <span className="speed-6">When You&apos;re</span><br />
           <span className="speed-5">Not There</span>
         </h1>
         <h2 className="speed-4 text-xs sm:text-[0.95rem] md:text-lg lg:text-2xl col-span-5 sm:col-span-4 row-start-5 sm:row-start-7 col-start-1 font-small text-left text-text-700">

@@ -15,9 +15,9 @@ export default function About() {
       id="about"
     >
       <div className="md:col-span-1">
-        <h1 className="text-3xl md:text-4xl font-bold text-text-800 mb-10">Hi, I'm Júlia!</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-text-800 mb-10">Hi, I&apos;m Júlia!</h1>
         <p className="mt-4 text-text-600 w-full text-lg md:text-xl leading-relaxed">
-          I'm a Veterinary Doctor with over 5 years of experience in animal care. I'm ready to take care, feed, walk and give all the love your pet deserves when you're not around. Your pet's well-being is my top priority, and I treat every animal as if it were my own.
+          I&apos;m a Veterinary Doctor with over 5 years of experience in animal care. I&apos;m ready to take care, feed, walk and give all the love your pet deserves when you&apos;re not around. Your pet&apos;s well-being is my top priority, and I treat every animal as if it were my own.
         </p>
       </div>
       <Carousel
