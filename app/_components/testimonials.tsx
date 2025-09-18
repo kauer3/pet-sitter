@@ -46,7 +46,7 @@ export default function Testimonials() {
       <span className="text-xl align-middle text-primary-500 leading-relaxed">
         <Quote size={24} />
       </span>
-      <p className="text-lg text-text-700 leading-relaxed italic grow-2">"{quote}"</p>
+      <p className="text-lg text-text-700 leading-relaxed italic grow-2">&quot;{quote}&quot;</p>
       <h2 className="text-xl text-text-700 font-semibold">{name}</h2>
       <span className="flex flex-row gap-2 justify-center items-center align-middle text-text-700 leading-relaxed">
         <span className="text-primary-500">
