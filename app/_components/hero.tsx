@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
         <Button
           text="Book a Service"
-          classes="speed-3 bg-primary-500 text-text-50 hover:bg-primary-600 col-start-1"
+          classes="speed-3 bg-linear-180 from-[30%] from-primary-400 to-primary-600 text-text-50 hover:from-[50%] col-start-1"
           onClick={() => window.location.href = '#book'}
         />
         <Button

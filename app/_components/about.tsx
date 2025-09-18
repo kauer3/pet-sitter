@@ -32,7 +32,7 @@ export default function About() {
           loop: true,
           skipSnaps: false,
         }}
-        className="md:col-start-2 md:col-span-1 max-sm:row-start-2 rounded-lg overflow-hidden shadow-lg"
+        className="md:col-start-2 md:col-span-1 md:mt-1 max-sm:row-start-2 rounded-lg overflow-hidden shadow-lg"
       >
         <CarouselContent>
           <CarouselItem>

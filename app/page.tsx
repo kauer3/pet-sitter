@@ -4,6 +4,7 @@ import Services from "./_components/services";
 import About from "./_components/about";
 import Testimonials from "./_components/testimonials";
 import Book from "./_components/book";
+import Footer from "./_components/footer";
 
 export default function Home() {
   return (
@@ -26,8 +27,9 @@ export default function Home() {
           <Book/>
         </Section>
       </main>
-      <footer className="h-screen w-screen bg-accent-500 z-10 relative">
-      </footer>
+        <Section classes="bg-accent-400">
+        <Footer/>
+        </Section>
     </div>
   );
 }
